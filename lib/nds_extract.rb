@@ -76,7 +76,6 @@ def movies_with_directors_set(source)
   
   source.map do |h| 
     movies_with_director_key(h[:name], h[:movies])
-  
   end
  
 end  
